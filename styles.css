@@ -88,3 +88,13 @@ nav a:hover{
     color: #48BB78;
 }
 
+.learn-about{
+    border-color: #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.learn-about h3{
+    color: #48BB78;
+    font-size: 21px;
+}

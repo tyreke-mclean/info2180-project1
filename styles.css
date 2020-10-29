@@ -9,3 +9,48 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+footer{
+    background-color: #4A5568;
+    
+}
+footer p{
+    color: white;
+}
+.newsletter{
+    background-color: #48BB78;
+    
+}
+.newsletter P{
+    color: white;
+}
+.newsletter .btn{
+    background-color: #5A67D8;
+}
+
+.stories img{
+    
+        border-radius: 50%;
+}
+.stories h3{
+    font-size: 18px;
+    color: #5A67B8;
+
+}
+
+.stories p a{
+    color: #5A67B8;
+}
+
+.testing {
+    background-color: #4A5568;
+}
+
+.testing p{
+    color: white;
+}
+
+.testing .btn{
+    background-color: #48BB78;
+    border-radius: 5px;
+}

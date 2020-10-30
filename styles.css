@@ -10,6 +10,12 @@ body {
     width: 100%;
 }
 
+p{
+    font: -apple-system, BlinkMacSysemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 18px;
+}
+
+/*Footer*/
 footer{
     background-color: #4A5568;
     
@@ -47,12 +53,11 @@ footer p{
 
 /*Recent Stories*/
 .stories img{
-    
-        border-radius: 50%;
+    border-radius: 50%;
 }
+
 .stories h3{
     text-size-adjust: 18px;
-    
     color: #5A67B8;
 
 }
@@ -93,31 +98,24 @@ article .stories img {
     margin: 1;
     display: grid;
     grid-gap: 19px;
-    grid-row: 1;
-    grid-column: 3;
+    grid-template-rows: 1;
+    grid-template-columns: 3;
 }
 
-.testing .container .cta{
+.cta{
     grid-column: 4/4;
     grid-row: 1/1;
-    padding: 5px;
+    padding: 10px;
     margin-bottom: 60px;
     margin-top: 50px;
-    display: inline;
-    justify-content: flex-end;
     background-color: #48BB78;
     border-radius: 5px;
 }
 
-.testing .container .testing-description{
-    grid-column: 1/4;
-    grid-row: 1/1;
+.testing-description{   
+    float: left;
 }
 
-p{
-    font: -apple-system, BlinkMacSysemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-    font-size: 18px;
-}
 
 /*Header*/
 header {
@@ -220,16 +218,16 @@ nav a:hover{
 		grid-gap: 19px;
 }
 
- .overview-hero .container >.overview-hero-image{
+ .overview-hero-image{
     grid-column: 1/5;
-    display: flex;
-    grid-row:1;
-    
+    max-width: 100%; 
+    padding: 20;
+    display: flex; 
  }
 
- .overview-hero .container >.overview-hero-text{
+ .overview-hero-text{
     grid-column: 5/5;
-    grid-row:1;
+    padding: 10px;
     justify-content: center;
     
  }

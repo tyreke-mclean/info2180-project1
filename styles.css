@@ -42,13 +42,16 @@ footer p{
 
 .newsletter{
     background-color: #48BB78;
-    justify-content: center;
-    padding: 40px;
+    
+    padding-top:20px;
+    
+    padding-bottom: 40px;
 }
 
 .newsletter P{
     color: white;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
 }
 
 .newsletter .btn{

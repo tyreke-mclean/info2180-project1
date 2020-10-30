@@ -42,7 +42,21 @@ footer p{
 .stories p a{
     color: #5A67B8;
 }
+.stories .container{
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 5;
+}
+.stories img #COVID-19-Testing{
+    grid-row: 1/2;
+    grid-column: 1/5;
+}
+.stories .container .article-body{ 
+    grid-row: 1/1;
+    grid-column: 4/5;
+    float: right;
 
+}
 .testing {
     background-color: #4A5568;
 }

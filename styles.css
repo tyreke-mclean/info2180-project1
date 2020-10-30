@@ -63,23 +63,50 @@ p{
 
 header {
     background-color: white;
+    
+}
+header .container{
+    margin: 1;
+    display: grid;
+	grid-gap: 19px;
+}
+header .container h1{
+    grid-column: 1/5;
+    display: inline-flex;
+    grid-row:1;
+    justify-content: start;
     font-size: 18px;
 }
 
-p a{
+header .container nav{ 
+    grid-column: 5/5;
+    grid-row:1;
+    justify-content: flex-end;
+    padding:18;
+    
+}
+
+p {
     font-size: 18px;
 }
 
 nav a{ 
     color: #6b7280;
 
+
+}
+nav ul li{
+    float: left;
+    display: inline;
+    margin: 9px;
 }
 nav ul{
     list-style-type: none;
-    text-decoration: none;
-    margin: 0;
-    padding: 5;
-    display: flex;
+    font-size: 18px;
+    float: inline-end;
+    
+    justify-content: center;
+    display: inline-flex;
 }
 
 nav a:hover{
@@ -106,6 +133,7 @@ nav a:hover{
     font-size: 21px;
 }
 .overview-hero .container{
+    margin: 1;
     display: grid;
 		grid-gap: 19px;
 }

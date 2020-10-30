@@ -113,27 +113,37 @@ nav a:hover{
     color: #5A67D8;
 }
 
-.overview-hero{
-    background-color: #E2E8F0;
-}
+
 
 .learn-about h2{
     text-size-adjust: 24px;
     color: #48BB78;
 }
 
-.learn-about{
+.learn-about .container{
+    display: grid;
+    grid-column: 3;
+    margin: 3;
+    grid-row: 1;
+    
+    
+    
+}
+.learn-about .container .card{
     border-color: #E2E8F0;
     border-radius: 5px;
     box-shadow: 1px 1px 1px 1px;
+    grid-row: 1/1;
 }
 
 .learn-about h3{
     color: #48BB78;
     font-size: 21px;
 }
+
 .overview-hero .container{
-    margin: 1;
+     background-color: #E2E8F0;
+     margin: 1;
     display: grid;
 		grid-gap: 19px;
 }

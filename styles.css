@@ -52,10 +52,30 @@ footer p{
 }
 
 .testing .btn{
+   
+}
+.testing .container{
+    margin: 1;
+    display: grid;
+    grid-gap: 19px;
+    grid-row: 1;
+    grid-column: 3;
+}
+.testing .container .cta{
+    grid-column: 4/4;
+    grid-row: 1/1;
+    padding: 5px;
+    margin-bottom: 60px;
+    margin-top: 50px;
+    display: inline;
+    justify-content: flex-end;
     background-color: #48BB78;
     border-radius: 5px;
 }
-
+.testing .container .testing-description{
+    grid-column: 1/4;
+    grid-row: 1/1;
+}
 p{
     font: -apple-system, BlinkMacSysemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
     font-size: 18px;
@@ -122,28 +142,38 @@ nav a:hover{
 
 .learn-about .container{
     display: grid;
-    grid-column: 3;
+    grid-template-columns: 200px repeat(3,250px) 200px;
     margin: 3;
-    grid-row: 1;
+   
     
     
     
 }
 .learn-about .container .card{
     border-color: #E2E8F0;
+    
     border-radius: 5px;
     box-shadow: 1px 1px 1px 1px;
-    grid-row: 1/1;
+    grid-row: 1/4;
 }
 
+.learn-about .container .card >img{
+    max-width: 100%;
+    
+}
+.learn-about .container .card-body{
+    padding: 0 20px 20px;
+}
 .learn-about h3{
     color: #48BB78;
     font-size: 21px;
 }
-
+.overview-hero{
+    background-color: #E2E8F0;
+}
 .overview-hero .container{
-     background-color: #E2E8F0;
-     margin: 1;
+    display: inline-flex;
+    
     display: grid;
 		grid-gap: 19px;
 }
@@ -151,10 +181,11 @@ nav a:hover{
     grid-column: 1/5;
     display: flex;
     grid-row:1;
-    padding:18;
+    
  }
  .overview-hero .container >.overview-hero-text{
     grid-column: 5/5;
     grid-row:1;
-    padding:18;
+    justify-content: center;
+    
  }

@@ -13,31 +13,39 @@ body {
 footer{
     background-color: #4A5568;
     
+    margin-bottom: -20%;
+    padding: 18px;
 }
 footer p{
     color: white;
 }
-.newsletter .container{
-    margin-bottom: 0%;
+
+/*Newsletter*/
+.newsletter .container{    
     text-align: center;
 }
+
 .form-group{
     display: inline;
-    padding: 28px;
+    padding: 38px;
 }
+
 .newsletter{
     background-color: #48BB78;
     justify-content: center;
-    
+    padding: 40px;
 }
+
 .newsletter P{
     color: white;
     display: inline-block;
 }
+
 .newsletter .btn{
-    background-color: #5A67D8;
+    background-color: #5A67D8;   
 }
 
+/*Recent Stories*/
 .stories img{
     
         border-radius: 50%;
@@ -59,20 +67,20 @@ article {
     grid-template-rows: 2;
     grid-template-columns: 5;
 }
+
 article .stories img {
-    
     grid-row: 1/2;
     grid-column: 1/5;
 }
-
 
 .article-body{ 
     padding: 10px;
     margin-left: 20px;
     grid-row: 1/2;
     grid-column: 5/5;
-
 }
+
+/*COVID-19 Testing Programme*/
 .testing {
     background-color: #4A5568;
 }
@@ -81,7 +89,6 @@ article .stories img {
     color: white;
 }
 
-
 .testing .container{
     margin: 1;
     display: grid;
@@ -89,6 +96,7 @@ article .stories img {
     grid-row: 1;
     grid-column: 3;
 }
+
 .testing .container .cta{
     grid-column: 4/4;
     grid-row: 1/1;
@@ -100,26 +108,31 @@ article .stories img {
     background-color: #48BB78;
     border-radius: 5px;
 }
+
 .testing .container .testing-description{
     grid-column: 1/4;
     grid-row: 1/1;
 }
+
 p{
     font: -apple-system, BlinkMacSysemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
     font-size: 18px;
 }
 
+/*Header*/
 header {
     background-color: white;
     
 }
 header .container{
     margin: 1;
+    
     display: grid;
 	grid-gap: 19px;
 }
 header .container h1{
     grid-column: 1/5;
+    padding: 20px;
     display: inline-flex;
     grid-row:1;
     justify-content: start;
@@ -162,7 +175,7 @@ nav a:hover{
 }
 
 
-
+/*Learn about*/
 .learn-about h2{
     text-size-adjust: 24px;
     color: #48BB78;
@@ -171,12 +184,9 @@ nav a:hover{
 .learn-about .container{
     display: grid;
     grid-template-columns: 200px repeat(3,250px) 200px;
-    margin: 3;
-   
-    
-    
-    
+    margin: 3;    
 }
+
 .learn-about .container .card{
     border-color: #E2E8F0;
     
@@ -189,13 +199,17 @@ nav a:hover{
     max-width: 100%;
     
 }
+
 .learn-about .container .card-body{
     padding: 0 20px 20px;
 }
+
 .learn-about h3{
     color: #48BB78;
     font-size: 21px;
 }
+
+/*Hero Overview */
 .overview-hero{
     background-color: #E2E8F0;
 }
@@ -205,12 +219,14 @@ nav a:hover{
     display: grid;
 		grid-gap: 19px;
 }
+
  .overview-hero .container >.overview-hero-image{
     grid-column: 1/5;
     display: flex;
     grid-row:1;
     
  }
+
  .overview-hero .container >.overview-hero-text{
     grid-column: 5/5;
     grid-row:1;

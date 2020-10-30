@@ -179,27 +179,31 @@ nav a:hover{
     color: #48BB78;
 }
 
-.learn-about .container{
+.learn-about .container .cards{
     display: grid;
-    grid-template-columns: 200px repeat(3,250px) 200px;
-    margin: 3;    
+    grid-template-columns: 1fr 1fr 1fr;
+    
+     
+   
 }
 
 .learn-about .container .card{
     border-color: #E2E8F0;
-    
+    margin: 20px;
+    display: inline;
     border-radius: 5px;
-    box-shadow: 1px 1px 1px 1px;
-    grid-row: 1/4;
+    box-shadow: 2px 1px 2px 1px;
+    
 }
 
 .learn-about .container .card >img{
     max-width: 100%;
-    
+    height: auto;
 }
 
 .learn-about .card-body{
     padding: 0 20px 20px;
+    
 }
 
 .learn-about h3{
@@ -211,6 +215,7 @@ nav a:hover{
 .overview-hero{
     background-color: #E2E8F0;
 }
+
 .overview-hero .container{
     display: inline-flex;
     
@@ -221,8 +226,8 @@ nav a:hover{
  .overview-hero-image{
     grid-column: 1/5;
     max-width: 100%; 
-    padding: 20;
-    display: flex; 
+    padding-top: 22px;
+   padding-bottom: 20px;
  }
 
  .overview-hero-text{

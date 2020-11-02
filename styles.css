@@ -1,0 +1,268 @@
+/* Add your CSS to this file */
+body {
+    margin: 0;
+    font-size: 16px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+}
+
+p{
+    font: -apple-system, BlinkMacSysemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 18px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+/*Footer*/
+footer{
+    background-color: #4A5568;
+    
+    margin-bottom: -20%;
+    padding: 18px;
+    padding-left: 100px;
+}
+footer p{
+    color: white;
+}
+
+/*Newsletter*/
+.newsletter .container{    
+    text-align: center;
+}
+
+.form-group{
+    display: inline;
+    padding: 30px;
+
+}
+
+.newsletter{
+    background-color: #48BB78;
+    
+    padding-top:20px;
+    
+    padding-bottom: 40px;
+}
+
+.newsletter P{
+    color: white;
+    display: flex;
+    text-align: left;
+    padding-right: 200px;
+    padding-left: 200px;
+
+}
+
+.newsletter .btn{
+    background-color: #5A67D8;  
+    height: 45px; 
+    width: 200px;
+    margin: 0;
+}
+input{
+    height: 43px; 
+    width: 350px;
+}
+
+.message{
+    color: white;
+    justify-content: left;
+    
+    padding-left: 150px;
+    height: 43px; 
+    width: 350px;
+}
+
+/*Recent Stories*/
+.stories img{
+    border-radius: 50%;
+}
+
+.stories h3{
+    text-size-adjust: 18px;
+    color: #5A67B8;
+
+}
+
+.stories p a{
+    color: #5A67B8;
+}
+
+article {
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 5;
+}
+
+article .stories img {
+    grid-row: 1/2;
+    grid-column: 1/5;
+}
+
+.article-body{ 
+    padding: 10px;
+    margin-left: 20px;
+    grid-row: 1/2;
+    grid-column: 5/5;
+}
+
+/*COVID-19 Testing Programme*/
+.testing {
+    background-color: #4A5568;
+}
+
+.testing p{
+    color: white;
+}
+
+.testing .container{
+    margin: 1;
+    display: grid;
+    grid-gap: 19px;
+    grid-template-rows: 1;
+    grid-template-columns: 3;
+}
+
+.cta{
+    grid-column: 4/4;
+    grid-row: 1/1;
+    padding: 10px;
+    margin-bottom: 60px;
+    margin-top: 50px;
+    background-color: #48BB78;
+    border-radius: 5px;
+}
+
+.testing-description{   
+    float: left;
+}
+
+
+/*Header*/
+header {
+    background-color: white;
+    
+}
+header .container{
+    margin: 1;
+    
+    display: grid;
+	grid-gap: 19px;
+}
+header .container h1{
+    grid-column: 1/5;
+    padding: 20px;
+    display: inline-flex;
+    grid-row:1;
+    justify-content: start;
+    font-size: 18px;
+}
+
+header .container nav{ 
+    grid-column: 5/5;
+    grid-row:1;
+    justify-content: flex-end;
+    padding:18;
+    
+}
+
+p {
+    font-size: 18px;
+}
+
+nav a{ 
+    color: #6b7280;
+
+
+}
+nav ul li{
+    float: left;
+    display: inline;
+    margin: 9px;
+}
+nav ul{
+    list-style-type: none;
+    font-size: 18px;
+    float: inline-end;
+    
+    justify-content: center;
+    display: inline-flex;
+}
+
+nav a:hover{
+    color: #5A67D8;
+}
+
+
+/*Learn about*/
+.learn-about h2{
+    text-size-adjust: 24px;
+    color: #48BB78;
+}
+
+.learn-about .container .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+     
+   
+}
+
+.learn-about .container .card{
+    border-color: #E2E8F0;
+    margin: 20px;
+    display: inline;
+    border-radius: 5px;
+    box-shadow: 2px 1px 2px 1px;
+    
+}
+
+.learn-about .container .card >img{
+    max-width: 100%;
+    height: auto;
+}
+
+.learn-about .card-body{
+    padding: 0 20px 20px;
+    
+}
+
+.learn-about h3{
+    color: #48BB78;
+    font-size: 21px;
+}
+
+/*Hero Overview */
+.overview-hero{
+    background-color: #E2E8F0;
+}
+
+.overview-hero .container{
+    display: inline-flex;
+    
+    display: grid;
+		grid-gap: 19px;
+}
+
+ .overview-hero-image{
+    grid-column: 1/5;
+    max-width: 100%; 
+    padding-top: 22px;
+   padding-bottom: 20px;
+ }
+
+ .overview-hero-text{
+    grid-column: 5/5;
+    padding: 10px;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 50px;
+ }

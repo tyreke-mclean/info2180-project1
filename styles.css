@@ -70,6 +70,15 @@ input{
     width: 350px;
 }
 
+.message{
+    color: white;
+    justify-content: left;
+    
+    padding-left: 25px;
+    height: 43px; 
+    width: 350px;
+}
+
 /*Recent Stories*/
 .stories img{
     border-radius: 50%;
